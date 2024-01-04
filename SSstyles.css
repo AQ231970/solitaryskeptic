@@ -133,7 +133,7 @@
         background: #5a2e04;
     }
 
-    .navbar_menu.active{
+    .nav_menu.active{
         background: #5a2e04;
         top: 100%;
         opacity: 1;
@@ -167,16 +167,16 @@
         transform: translate(5%, 20%);
     }
 
-    #mobile-menu.is_active .bar:nth-child(2){
+    #mobile_menu.is_active .bar:nth-child(2){
         opacity: 0;
     }
 
-    #mobile-menu.is_active .bar:nth-child(1){
+    #mobile_menu.is_active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
 
-    #mobile-menu.is_active .bar:nth-child(3){
-        transform: translateY(8px) rotate(-45deg);
+    #mobile_menu.is_active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .nav_item{

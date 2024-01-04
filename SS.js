@@ -1,7 +1,7 @@
 // target the bars in the html the mobile-menu id selector
-const menu = document.querySelector('#mobile-menu')
+const menu = document.querySelector('#mobile_menu');
 // then target the ul with the nav_menu class
-const menuLinks = document.querySelector('.nav_menu')
+const menuLinks = document.querySelector('.nav_menu');
 
 // listen for a click event (once we click it, we want a function to run)
 // when the function runs, its going to toggle, and add a class list for is-active and active
@@ -9,4 +9,4 @@ const menuLinks = document.querySelector('.nav_menu')
 menu.addEventListener('click', function() {
     menu.classList.toggle('is_active');
     menuLinks.classList.toggle('active');
-})
+});
