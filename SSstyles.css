@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', serif;
+    font-family:'Courier New', monospace;
 }
 
 .navbar{
@@ -32,7 +32,7 @@
 
 #navbar_logo{
     background-color: #b15e10;
-    background-image: linear-gradient(to top, #b15e10 0%, #f1a863 100%);
+    background-image: linear-gradient(to top, #b66c27 0%, #f1a863 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -60,7 +60,7 @@
 
 .nav_links{
     padding:0 16px;
-    font-size: 25px;
+    font-size: 20px;
     color: #f1a863;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #b15e10;
+    background: #462506;
     color:#f7bd88;
     font-size: 25px;
     text-decoration: none;
@@ -154,7 +154,7 @@
         height: 3px;
         margin:5px auto;
         transition: all 0.5s ease-in-out;
-        background: #f8cfa9;
+        background: #f7d0ab;
         display: block;
         cursor: pointer;
 
@@ -208,3 +208,4 @@
 
 
 }
+
