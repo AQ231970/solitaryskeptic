@@ -209,7 +209,11 @@
 
 }
  
- h1, h2, h3, p {
+ h1, h2, h3, p, i{
     font-family:Cambria, serif;
+ }
+
+ .main_img{
+    width: 500px;
  }
  
