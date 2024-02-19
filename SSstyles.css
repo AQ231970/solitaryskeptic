@@ -209,14 +209,33 @@
 
 }
  
- h1, h2, h3, p, i{
-    font-family:Cambria, serif;
+ h1, h2, p,i{
+    font-family: Cambria, serif;
+    padding: 20px;
+    background-color:#f8cfa9;
+    
  }
 
- .main_img{
-    width: 500px;
+
+ .subheading{
+    background-color:#94551a;
  }
- .articles_button{
-    
+
+ .introduction_container{
+    display:grid;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #94551a;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+ }
+ .introduction h1{
+    padding: 50px;
+    max-width: 100%;
  }
  
