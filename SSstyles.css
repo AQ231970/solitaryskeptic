@@ -109,8 +109,8 @@
 }
 
 .bottom_button:hover{
-    background:#975414;
-    color:#f8cfa9;
+    
+    color:rgb(27, 52, 105);
     transition: all 0.3s ease;
 }
 
@@ -263,7 +263,7 @@ h1 {
 
 
  .subheading{
-    background-color:#94551a;
+    background-color:#cc813b;
     height: 100%;
     padding-bottom: 40px;
  }
