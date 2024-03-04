@@ -32,6 +32,8 @@
 
 }
 
+
+
 #navbar_logo{
     background-color: #b15e10;
     background-image: linear-gradient(to top, #b66c27 0%, #f1a863 100%);
@@ -93,26 +95,27 @@
     font-size: 25px;
     text-decoration: none;
 }
-.articles_button a{
+
+
+button{
+    background: #f1a863;
     text-decoration: none;
-    
-    font-size: 18px;
-    font-weight: bold;
-    color:#5a2e04;
-    background-color:#f1a863;
+    padding: 10px 20px;
+    margin: 5px 40%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width:300px;
 }
 
-.articles_button{
-    background-color: #f1a863;
-    text-align: center;
-    margin: 1% 40%;
-}
-
-.bottom_button:hover{
-    
-    color:rgb(27, 52, 105);
+button:hover{
+    background:#5a2e04;
+    color:rgb(138, 160, 209);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
+
+
 
 .button:hover{
     background:#975414;
@@ -281,6 +284,20 @@ h1 {
     max-width: 1300px;
     padding: 0 50px;
  }
+
+ .resume_container{
+    background-color:#b66c27;
+    margin: 0 auto;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+ }
+
+ .cv_resume{
+    background-color:#f1a863;
+ }
  
 
  .readerpic{
@@ -310,3 +327,9 @@ h1 {
     height: 100px;
  }
  
+ iframe{
+    padding-top: 10px;
+    height: 100vh;
+ }
+
+

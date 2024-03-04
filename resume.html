@@ -3,9 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Solitary Skeptic</title>
+    <link rel="stylesheet" href="SSstyles.css" />
+    <!-- favicon and icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
   </head>
   <body>
-    <h1>poopy butt</h1>
+    <nav class="navbar">
+      <div class="nav_container">
+        <a href="/home.html" id="navbar_logo">The Solitary Skeptic Reader</a>
+        <div class="nav_toggle" id="mobile_menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav_menu">
+          <li class="nav_btn">
+            <a href="/home.html" class="button">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="/resume.html" class="nav_links">Resume & CV</a>
+          </li>
+          <li class="nav_item">
+            <a href="/articles.html" class="nav_links">Writing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="cv_resume">
+      <div class="resume_container">
+        <iframe
+          src="AQureshi_Resume_030424.pdf"
+          width="100%"
+          height="600px"
+        ></iframe>
+        <button href="/articles.html">
+          <a type="button" class="articles_button">
+            Click here to check out my writing!
+          </a>
+        </button>
+      </div>
+    </div>
+    <div class="ribbon">
+      <p>
+        © Aysha Qureshi and The Solitary Skeptic Reader, 2024. Unauthorized use
+        and/or duplication of this material without express and written
+        permission from this site's author and/or owner is strictly prohibited.
+        Excerpts and links may be used, provided that full and clear credit is
+        given to Aysha Qureshi or Solitary Skeptic with appropriate and specific
+        direction to the original content.
+      </p>
+    </div>
+    <script src="SS.js"></script>
   </body>
 </html>
