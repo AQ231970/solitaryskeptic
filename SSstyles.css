@@ -85,7 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-decoration: none; */
+    text-decoration: none;
     padding: 10px 20px;
     outline: none;
     border: none;
@@ -108,11 +108,12 @@ button{
     width:300px;
 }
 
-button:hover{
-    background:#5a2e04;
-    color:rgb(138, 160, 209);
-    transition: all 0.3s ease;
-    cursor: pointer;
+.articles_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    height: 100%;
 }
 
 
@@ -231,14 +232,6 @@ button:hover{
         margin:0;
     }
 
-    .articles_button a{
-        font-size: 12px;
-        font-weight: light;
-    }
-
-    .articles_button{
-        margin: 20px 100px;
-    }
 
 
 }
@@ -259,9 +252,11 @@ h1 {
     color: #5a2e04;
  }
 
- i{
+ i, a{
     font-family: Cambria, serif;
     font-size: 17px;
+    text-decoration: none;
+    color:#5a2e04;
  }
 
 
